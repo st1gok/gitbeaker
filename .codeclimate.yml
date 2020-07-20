@@ -1,4 +1,4 @@
-engines:
+plugins:
   tslint:
     enabled: true
     config: tslint.json
@@ -9,7 +9,7 @@ engines:
     config:
       languages:
         typescript:
-          mass_threshold: 70
+          mass_threshold: 65
           count_threshold: 3
 
 ratings:
@@ -18,5 +18,6 @@ ratings:
 
 exclude_paths:
   - node_modules
+  - test
   - coverage
   - dist
